@@ -1,0 +1,9 @@
+asistente_retie/
+├── data/
+│   └── RETIE_2013.pdf        <-- Pega aquí tu PDF del RETIE o NTC 2050
+├── vector_db/                <-- Aquí se guardará la "memoria" del PDF (se crea sola)
+├── .env                      <-- Aquí irán tus claves secretas
+├── requirements.txt          <-- Lista de librerías
+├── ingest.py                 <-- Script para leer el PDF y crear la base de datos
+├── main.py                   <-- La aplicación web (Streamlit)
+└── README.md
